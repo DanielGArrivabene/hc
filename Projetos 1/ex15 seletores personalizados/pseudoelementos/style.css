@@ -1,0 +1,33 @@
+@charset "UTF-8"
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+a:active {
+    color: crimson;
+}
+.especial::after {
+    content: ' ❰';
+    color: blue;
+   
+}
+.especial::before {
+    content: '❱ ';
+    color: blue;
+}
+.especial {
+    background-color: rgb(236, 79, 79);
+    width: 183px;
+   
+}

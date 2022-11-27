@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Adicionando vídeos hospedados localmente</h1>
+    <h2>Este vídeo está hospedado no meu próprio servidor</h2>
+    <h3>Modo 1</h3>
+    <video src="videos/video.mkv" width="250px" poster="videos/cok.png" controls></video>
+    <h3>Modo 2</h3>
+    <video width="500px" poster="videos/cok.png" controls>
+        <source src="videos/video.mkv" type="video/mkv">
+        <source src="videos/video.mp4" type="video/mp4">
+        <source src="videos/video.webm" type="video/webm">
+        <p>Seu navegador não é capaz de reproduzir vídeos.</p>
+    </video>
+    <h2>Incorporando vídeos externos</h2>
+    <h3>Do Youtube</h3>
+    <iframe width="250" height="315" src="https://www.youtube.com/embed/zrIfhUVB_3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
