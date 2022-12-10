@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(226, 226, 228);
+}
+
+thead {
+    background-color: rgb(82, 82, 82);
+    color: rgb(254, 254, 255);
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(82, 82, 82);
+}
+
+th#estado {
+    width: 130px;
+}
+
+tbody > tr:nth-child(2n) { /*2n --> a cada duas linhas ele vai fazer
+    2n-1 --> ele vai fazer a cada duas linhas também, mas começando da linha anterior */
+    background-color: rgb(170, 172, 172);
+}
+
+tfoot {
+    background-color: rgb(171, 208, 241);
+    color: red;
+}
+
+td.num {
+    text-align: right;
+}
