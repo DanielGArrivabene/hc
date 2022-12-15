@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Métodos de Envio de Formulários</title>
+    <title>Teste de Formulários</title>
 </head>
 <body>
-    <form action="" method="get"></form>
-    <form action="" method="post"></form>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usuario" id="iusu" required minlength="5" maxlength="18" size="18" placeholder="Nome de usuário">
+        </p>
+        <p>
+            <label for="ipass">Senha: </label>
+            <input type="password" name="senha" id="ipass" required minlength="8" maxlength="16" size=16" placeholder="Min 8 letras">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="X">
+        </p>
+    </form>
 </body>
 </html>
