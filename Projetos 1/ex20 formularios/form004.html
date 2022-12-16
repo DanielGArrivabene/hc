@@ -15,22 +15,25 @@
     <h1>oh yeah</h1>
 
     <form action="#" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" size="20" autocomplete="name">
-        </p>
-        <p>
-            <label for="iemail">Email</label>
-            <input type="email" name="email" id="iemail" required placeholder="joãozinho@email.com" size="30" autocomplete="email">
-        </p>
-        <p>
-            <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" required placeholder="(XX) X XXXX-XXXX" size="14" autocomplete="tel" maxlength="14" minlength="12">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" size="20" autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required placeholder="joãozinho@email.com" size="30" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(XX) X XXXX-XXXX" size="14" autocomplete="tel" maxlength="14" minlength="12">
+            </p>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
     </form>
 </body>
 </html>
