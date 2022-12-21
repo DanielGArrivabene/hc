@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mq.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="imenu" class="material-symbols-outlined" onclick="clickMenu ()">menu</span>
@@ -45,6 +45,14 @@
                 ioptions.style.display = 'none'
             } else  {
                 ioptions.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerwidth >= 800) {
+                ioptions.style.display = 'block'
+            } else {
+            ioptions.style.display = 'none'
             }
         }
     </script>

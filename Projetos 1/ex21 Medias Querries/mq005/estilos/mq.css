@@ -8,5 +8,18 @@
 
     menu#ioptions {
         display: block;
+        background-color: rgb(143, 142, 142);
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border-radius: 6px;
+    }
+
+    main {
+        max-width: 800px;
     }
 }
