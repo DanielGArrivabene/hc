@@ -19,8 +19,23 @@ header > h1 {
     padding: 10px;
 }
 
-menu {
+span#imenu {
+    background-color: rgb(30, 30, 30);
     display: block;
+    color: rgb(208, 208, 208);padding: 7px;
+    text-align: right;
+}
+
+span#imenu:hover {
+    background-color: rgb(61, 61, 61);
+    color:rgb(30, 30, 30) ;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
